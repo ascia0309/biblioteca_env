@@ -12,3 +12,10 @@ class CategoriaAdmin(admin.ModelAdmin):
 	list_per_page=3
 
 admin.site.register(Categoria, CategoriaAdmin)
+admin.site.register(Autor)
+
+#class LibroAdmin(admin.ModelAdmin):
+#	list_display=("nombre","categoria","created_at","updated_at")
+
+#admin.site.register(Libro, LibroAdmin)
+		
