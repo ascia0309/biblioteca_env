@@ -1,0 +1,9 @@
+<BranchVCSpec>
+	<PkgGUID>{D88721D6-2356-48f0-BDE7-A7AE6B729AB1}</PkgGUID>
+	<XMLPath>eaA\A7AE6B729AB1.xml</XMLPath>
+	<Config>
+		<GUID>Bibliote-Model</GUID>
+		<LocalPath>%Bibliote-Model%</LocalPath>
+		<Type>2</Type>
+	</Config>
+</BranchVCSpec>
