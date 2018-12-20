@@ -5,7 +5,7 @@ from ..enums import LIBRO_TIPO_CHOICES, FISICO
 
 class Libro(models.Model):
 
-	nombre=models.CharField(max_length=50)
+	nombre=models.CharField(max_length=60)
 	categoria=models.ForeignKey(Categoria, null=True, blank=True)
 	autors=models.ManyToManyField(Autor, null=True, blank=True)
 	tipo=models.CharField(max_length=50, choices=LIBRO_TIPO_CHOICES, default=FISICO)

@@ -5,23 +5,20 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    initial = True
-
     dependencies = [
+        ('catalogacion', '0001_initial'),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Categoria',
+            name='Autor',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('nombre', models.CharField(max_length=60)),
-                ('codigo', models.CharField(blank=True, max_length=60, null=True)),
-                ('estado', models.BooleanField(default=True)),
+                ('nombre', models.CharField(max_length=50)),
             ],
             options={
-                'verbose_name': 'Categoria',
-                'verbose_name_plural': 'Categorias',
+                'verbose_name': 'Autor',
+                'verbose_name_plural': 'Autores',
             },
         ),
     ]

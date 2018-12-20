@@ -14,4 +14,4 @@ class Ejemplar(models.Model):
 		verbose_name_plural = "Ejemplares"
 
 	def __str__(self):
-		return '%s %s' % (self.codigo, self.libro.nombre)
+		return '%s %s' % (self.codigo, self.libro)
