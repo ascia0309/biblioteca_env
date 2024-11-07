@@ -51,3 +51,32 @@ manage.py
 
 # example database
 drf_example
+
+############################################################################################
+
+# Ignora el entorno virtual
+biblioteca_env/
+env/
+
+# Archivos de configuración del entorno
+.env
+
+# Archivos de migración de Django
+**/migrations/
+
+# Archivos de caché y bytecode de Python
+*.pyc
+__pycache__/
+
+# Configuración de la base de datos (si usas SQLite)
+db.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos de sistema (por ejemplo, en macOS)
+.DS_Store
+
+# Archivos de configuraciones específicas de IDEs (opcional)
+.vscode/
+.idea/
