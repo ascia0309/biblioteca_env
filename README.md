@@ -6,7 +6,7 @@ Este es un proyecto Django para gestionar una biblioteca.
 
 1. Clona el repositorio:
     ```sh
-    git clone <URL_DEL_REPOSITORIO>
+    git clone https://github.com/ascia0309/biblioteca_env
     ```
 
 2. Navega al directorio del proyecto:
